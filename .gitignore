@@ -1,1 +1,18 @@
+# Obsidian planning vault
 Key Club Web/
+
+# Dependencies (always ignore node_modules)
+node_modules/
+**/node_modules/
+
+# Production build output
+dist/
+**/dist/
+
+# Local environment variables
+.env
+.env.local
+
+# OS system files
+.DS_Store
+Thumbs.db

@@ -1,9 +1,17 @@
-/* Overview: Global CSS entry point importing Tailwind utilities and rem sizing. */
+/* Overview: Global CSS entry point importing Tailwind v4 and official brand colors. */
 
-/* Tailwind framework directives */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Import Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* Official Key Club International brand theme colors */
+@theme {
+  --color-nj-navy: #002B49;     /* Deep Navy: headers, main navbar, hero backdrop */
+  --color-kc-blue: #00539B;     /* Key Club Blue: buttons, active borders, links */
+  --color-kc-gold: #FFC72C;     /* Key Club Gold: badges, accents, highlights */
+  --color-kc-light-blue: #C0D7E0; /* Soft Blue: subtle borders and card highlights */
+  --color-kc-dark-gold: #F0B800;  /* Dark Gold: hover states */
+  --color-neutral-light: #F8FAFC; /* Neutral Light: clean section backgrounds */
+}
 
 /* Base HTML font scaling and smooth scrolling */
 html {
