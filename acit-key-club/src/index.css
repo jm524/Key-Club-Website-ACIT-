@@ -1,0 +1,12 @@
+/* Overview: Global CSS entry point importing Tailwind utilities and rem sizing. */
+
+/* Tailwind framework directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base HTML font scaling and smooth scrolling */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}

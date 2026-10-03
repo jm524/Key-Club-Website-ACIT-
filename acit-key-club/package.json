@@ -1,0 +1,31 @@
+{
+  "//": "Overview: Defines project metadata, runnable scripts, and external library dependencies.",
+  "name": "acit-key-club",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "//scripts_comment": "Run 'npm run dev' to start the local website or 'npm run build' to create production files",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "//dependencies_comment": "Core packages required for the website (React UI, icons, styling helpers)",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.5.0"
+  },
+  "//devDependencies_comment": "Development tools used for compiling Tailwind CSS and running the Vite server",
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
+  }
+}
