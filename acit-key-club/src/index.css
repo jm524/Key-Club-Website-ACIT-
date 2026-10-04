@@ -1,20 +1,40 @@
-/* Overview: Global CSS entry point importing Tailwind v4 and official brand colors. */
+/* Overview: Global CSS entry point importing Tailwind v4, brand colors, and typography. */
 
 /* Import Tailwind CSS v4 */
 @import "tailwindcss";
 
-/* Official Key Club International brand theme colors */
+/* Official Key Club International brand theme colors & fonts from Info.md */
 @theme {
-  --color-nj-navy: #002B49;     /* Deep Navy: headers, main navbar, hero backdrop */
-  --color-kc-blue: #00539B;     /* Key Club Blue: buttons, active borders, links */
-  --color-kc-gold: #FFC72C;     /* Key Club Gold: badges, accents, highlights */
-  --color-kc-light-blue: #C0D7E0; /* Soft Blue: subtle borders and card highlights */
-  --color-kc-dark-gold: #F0B800;  /* Dark Gold: hover states */
-  --color-neutral-light: #F8FAFC; /* Neutral Light: clean section backgrounds */
+  /* Core brand palette */
+  --color-kiwanis-blue: #00457A;
+  --color-light-blue: #C0D7E0;
+  --color-dark-gold: #F0B800;
+  --color-light-gold: #FCE6B3;
+
+  /* Pantone brand palette */
+  --color-pantone-black: #000000;
+  --color-pantone-295-blue: #002855;
+  --color-pantone-872-gold: #85714D;
+  --color-pantone-cyan: #00A3E0;
+  --color-pantone-158-orange: #E87722;
+  --color-pantone-174-brown: #7E3E26;
+  --color-pantone-187-red: #A6192E;
+  --color-pantone-magenta: #C6007E;
+  --color-pantone-576-green: #568203;
+  --color-pantone-122-yellow: #FED141;
+
+  /* Official Key Club Typography from Info.md */
+  --font-myriad-pro: 'Myriad Pro', sans-serif;
+  --font-century-gothic: 'Century Gothic', sans-serif;
+  --font-verdana: Verdana, sans-serif;
+  --font-garamond-premier-pro: 'Garamond Premier Pro', serif;
+  --font-goudy-oldstyle: 'Goudy Oldstyle', serif;
+  --font-abril-display-italic: 'Abril Display', serif;
 }
 
 /* Base HTML font scaling and smooth scrolling */
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  font-family: var(--font-century-gothic);
 }

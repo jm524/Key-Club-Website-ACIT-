@@ -3,16 +3,22 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- Favicon & Device Icons -->
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicons/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ACIT Key Club | NJ District Division 22</title>
-
-    <!-- Google typography font -->
+    <title>ACIT Key Club</title>
+    <!-- Google Typography Fonts: Modern geometric sans (matching Century Gothic) & elegant editorial serif -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400;1,600&display=swap" rel="stylesheet">
   </head>
-  <body class="bg-neutral-light text-slate-800 antialiased selection:bg-kc-gold selection:text-nj-navy">
+  <body class="bg-neutral-light text-slate-800 antialiased font-sans selection:bg-kc-gold selection:text-nj-navy">
     <!-- Root container where React renders the app -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
