@@ -107,19 +107,19 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 sm:h-[88px]">
           
-          {/* Left: Combined Logo & Chapter Details (Clickable home link with smooth scale-up hover) */}
+          {/* Left: Combined Logo & Chapter Details (Clickable home link with subtle hover) */}
           <div className="flex items-center justify-start min-w-0">
             <a href="#" className="flex items-center space-x-3.5 group">
               <img
                 src="/assets/ACIT%20Key%20Club%20Logo.png"
                 alt="ACIT Key Club Logo"
-                className="h-14 w-14 sm:h-[70px] sm:w-[70px] object-contain flex-shrink-0 group-hover:scale-105 transition-transform duration-300 ease-out"
+                className="h-14 w-14 sm:h-[70px] sm:w-[70px] object-contain flex-shrink-0 group-hover:scale-[1.02] transition-transform duration-200 ease-out"
               />
-              <div className="text-left min-w-0">
-                <span className="block text-white font-century-gothic font-bold text-base sm:text-lg leading-tight tracking-wider truncate group-hover:text-light-gold transition-colors duration-200">
+              <div className="text-left min-w-0 group-hover:opacity-85 transition-opacity duration-200">
+                <span className="block text-white font-century-gothic font-bold text-base sm:text-lg leading-tight tracking-wider truncate">
                   ACIT KEY CLUB
                 </span>
-                <span className="block text-dark-gold font-myriad-pro text-[10px] sm:text-xs font-semibold tracking-widest uppercase group-hover:text-light-blue transition-colors duration-200">
+                <span className="block text-dark-gold font-myriad-pro text-[10px] sm:text-xs font-semibold tracking-widest uppercase">
                   NJ District • Division 2
                 </span>
               </div>
